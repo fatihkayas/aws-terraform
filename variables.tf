@@ -7,7 +7,7 @@ variable "region" {
 variable "key_name" {
   description = "The name of the key pair"
   type        = string
-  default     = "mackey.pem"
+  default     = ""
 }
 
 variable "public_key_path" {
@@ -25,5 +25,5 @@ variable "instance_type" {
 variable "ami_id" {
   description = "The AMI ID to use for the instance"
   type        = string
-  default     = "ami-0c55b159cbfafe1f0"
+  default     = ""
 }
